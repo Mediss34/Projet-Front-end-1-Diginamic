@@ -1,0 +1,144 @@
+p {
+  font-family: "Inter", sans-serif;
+}
+h2 h3 {
+  color: #000091;
+  font-family: "Jost", sans-serif;
+  font-size: 2em;
+}
+
+.firstletter {
+  color: #e1000f;
+}
+
+.textbleu {
+  color: #000091;
+}
+
+article {
+  text-align: center;
+}
+
+article h2 {
+  font-weight: bold;
+}
+
+article h3 {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.fleche {
+  display: none;
+}
+
+.carte1,
+.carte3,
+.comparatif2,
+.histoire {
+  background-color: #00009115;
+}
+
+/* Ipad portrait */
+@media screen and (min-width: 768px) {
+  .carte {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #00009115;
+  }
+  .carte1,
+  .carte2 {
+    flex: 1;
+    margin: 5px;
+  }
+  .carte1,
+  .carte3 {
+    background: rgba(0, 0, 0, 0);
+  }
+}
+
+/* Ipad paysage et desktop */
+@media screen and (min-width: 1024px) {
+  .carte {
+    display: flex;
+    background-color: #00009115;
+  }
+  .carte1,
+  .carte2,
+  .carte3 {
+    flex: 1;
+    margin: 5px;
+  }
+  .fleche {
+    display: block;
+  }
+  .carte1,
+  .carte3,
+  .comparatif2 {
+    background: rgba(0, 0, 0, 0);
+  }
+}
+
+.comparatif img {
+  min-width: 400px;
+}
+
+/*  Ipad paysage et desktop */
+@media screen and (min-width: 1024px) {
+  .comparatif1 {
+    display: flex;
+  }
+  .comparatif1 {
+    flex: 1;
+    margin-bottom: 60px;
+    align-items: center;
+  }
+  .comparatif1 img {
+    max-width: 544px;
+  }
+  .comparatif1,
+  .Vcomparatif {
+    background-color: #00009115;
+  }
+}
+
+/*  Ipad paysage et desktop  */
+@media screen and (min-width: 1024px) {
+  .comparatif2 {
+    display: flex;
+  }
+  .comparatif2 {
+    flex: 1;
+    margin: 5px;
+    align-items: center;
+  }
+  .comparatif2 img {
+    max-width: 544px;
+  }
+}
+
+.line {
+  display: flex;
+  width: 100%;
+  padding-top: 40px;
+  padding-bottom: 30px;
+}
+
+.line-blue {
+  height: 2px;
+  background-color: #000091;
+  width: 80%;
+  margin-left: 3%;
+}
+
+.line-white {
+  height: 2px;
+  background-color: #ffff;
+  width: 7%;
+}
+
+.line-red {
+  height: 2px;
+  background-color: #e1000f;
+  width: 7%;
+}

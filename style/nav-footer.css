@@ -1,0 +1,292 @@
+main {
+  margin-top: 95px;
+}
+li {
+  list-style: none;
+  color: #000091;
+  padding: 3px;
+  font-family: "Jost", sans-serif;
+}
+li:hover {
+  color: #e1000f;
+}
+li:hover .firstletter {
+  color: #000091;
+}
+li:hover button {
+  background-color: #e1000f;
+  color: white;
+}
+h1 {
+  font-size: 1.4em;
+  font-family: "Handlee", cursive;
+  color: #000091;
+  margin-left: 10%;
+}
+h2 {
+  color: #000091;
+  font-family: "Jost", sans-serif;
+  font-size: 2em;
+}
+p {
+  font-family: "Inter", sans-serif;
+}
+.logo {
+  max-width: 7%;
+}
+
+.firstletter {
+  color: #e1000f;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1%;
+  font-size: calc(0.5rem + 1.5vw);
+  border-bottom: #000091 2px solid;
+  box-shadow: 0px 8px 10px -2px rgba(0, 0, 0, 0.5);
+  width: 100%;
+  position: fixed;
+  height: 75px;
+  z-index: 1000;
+  background-color: white;
+}
+nav h1 {
+  width: fit-content;
+}
+nav ul {
+  z-index: 2;
+  position: fixed;
+  left: -150%;
+  top: 8%;
+  flex-direction: column;
+  width: 100%;
+  text-align: center;
+  transition: 0.25s;
+  background-color: white;
+}
+nav.active ul {
+  left: 0;
+}
+nav li:hover {
+  background-color: #00009125;
+}
+ul button {
+  background-color: #000091;
+  color: white;
+  width: fit-content;
+  border-radius: 16px;
+  font-size: 0.8em;
+  padding: 0px 15px;
+}
+#icons {
+  display: block;
+}
+#icons:before {
+  content: "\2630";
+  color: #000091;
+}
+.active #icons:before {
+  content: "\2715";
+  color: #000091;
+}
+footer {
+  background-color: black;
+  padding-top: 2%;
+  width: 100%;
+}
+footer,
+h2 {
+  color: white;
+  text-align: center;
+}
+.line-footer {
+  display: flex;
+  width: 100%;
+}
+.line-blue {
+  height: 2px;
+  background-color: #000091;
+  width: 80%;
+  margin-left: 3%;
+}
+.line-white {
+  height: 2px;
+  background-color: #ffff;
+  width: 7%;
+}
+.line-red {
+  height: 2px;
+  background-color: #e1000f;
+  width: 7%;
+}
+form {
+  padding: 2%;
+  margin: 2%;
+}
+.input {
+  width: 80%;
+  background-color: #434242;
+  border: none;
+  color: #ffffff50;
+}
+.textarea {
+  margin-top: 3%;
+  width: 80%;
+  background-color: #434242;
+  border: none;
+  color: #ffffff50;
+}
+.select {
+  width: 59%;
+  background-color: #434242;
+  border: none;
+  color: #ffffff50;
+}
+footer button {
+  background-color: #000091;
+  width: 20%;
+  border-radius: 16px;
+  font-size: 0.8em;
+}
+.copyright {
+  font-size: 0.6em;
+  width: fit-content;
+}
+.dailymotion {
+  width: 50px;
+}
+.reseaux {
+  width: 40px;
+  font-size: 40px;
+}
+.footer-footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+@media screen and (min-width: 1024px) {
+  li {
+    font-size: 0.8em;
+  }
+  main {
+    margin-top: 160px;
+  }
+  h1 {
+    margin: 0;
+  }
+  #icons {
+    display: none;
+    cursor: pointer;
+  }
+  nav {
+    height: 150px;
+  }
+  nav ul {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 55%;
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+  ul button {
+    padding: 0px 15px;
+  }
+  .input {
+    margin: 2%;
+    padding: 5px;
+  }
+  .textarea {
+    margin-top: 0;
+    padding: 20px;
+  }
+  .inputs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+  }
+  .card-form {
+    display: flex;
+    width: 100%;
+    align-items: center;
+  }
+  .select {
+    width: 30.6%;
+    margin-right: 41.3%;
+    padding: 5px;
+    margin-top: 1%;
+  }
+  footer h2 {
+    font-size: 2em;
+  }
+  form button {
+    font-size: 16px;
+    padding: 5px;
+  }
+  .special {
+    color: #000091;
+  }
+}
+@media screen and (min-width: 793px) and (max-width: 1024px) {
+  main {
+    margin-top: 100px;
+  }
+  nav {
+    height: 95px;
+  }
+  h1 {
+    margin: 0;
+    font-size: 1.2em;
+  }
+  .input {
+    margin: 2%;
+  }
+  .textarea {
+    margin-top: 0;
+  }
+  .inputs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+  }
+  .card-form {
+    display: flex;
+    width: 100%;
+    align-items: center;
+  }
+  .select {
+    width: 31%;
+    margin-right: 41%;
+  }
+  #icons {
+    display: none;
+    cursor: pointer;
+  }
+  nav ul {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 60%;
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+
+  ul button {
+    padding: 0px 15px;
+  }
+}
+
+#map {
+  height: 50vh;
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 5%;
+  z-index: 1;
+}

@@ -1,0 +1,85 @@
+*,
+:before,
+:after {
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  font-weight: inherit;
+}
+
+p,
+ul,
+ol {
+  margin: 0;
+}
+
+ul,
+ol {
+  list-style: none;
+  padding-left: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  display: block;
+}
+
+button {
+  padding: 0;
+  border: none;
+  font: inherit;
+  color: inherit;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+img,
+video {
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+img,
+video {
+  height: auto;
+}
+
+html {
+  font-size: 125%;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  overflow-x: hidden;
+  height: 100vh;
+  font-size: 0.8rem;
+  font-weight: 300;
+  line-height: 2;
+  margin: 0;
+  scroll-behavior: smooth;
+}
+
+ion-icon {
+  vertical-align: middle;
+}
+
+.Display-none {
+  display: none;
+}
+
+@media (max-width: 1250px) {
+  body {
+    overflow-y: auto;
+  }
+}
