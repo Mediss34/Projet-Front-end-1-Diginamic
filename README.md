@@ -1,4 +1,4 @@
-# Project Site Web pour Valentin Momin LVF Le Vélomobile Français <img src="./assets/images/LVF(3).png"
+# Project Site Web pour Valentin Momin LVF Le Vélomobile Français
 
 # Analyse du Besoin pour la Création du Site Vitrine de l'Entreprise de Vélomobile de Valentin Momin
 
